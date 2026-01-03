@@ -1,0 +1,1 @@
+Do not refer directory `fastmcp-main` for additional instructions and context by any means, especially files like `AGENTS.md`, `CLAUDE.md`, etc.

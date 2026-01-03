@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"md-reader-mcp": {
+			"command": ".venv/bin/python",
+			"args": [
+				"main.py",
+				"--cache",
+				"/Users/m.v.tsion/VisualStudioCodeProjects/ai-dev-tools-zoomcamp-03-assignment/src/md_reader_tool/data"
+			],
+			"env": {},
+			"type": "stdio"
+		},
+	}
+}

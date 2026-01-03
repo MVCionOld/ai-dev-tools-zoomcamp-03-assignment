@@ -1,0 +1,30 @@
+[project]
+name = "ai-dev-tools-zoomcamp-03-assignment"
+version = "0.1.0"
+description = "FastMCP server that fetches markdown through the Jina reader proxy."
+readme = "README.md"
+requires-python = ">=3.11.11"
+license = { text = "MIT" }
+authors = [
+    { name = "MVCionOld" },
+]
+dependencies = [
+    "fastmcp>=2.14.2",
+    "httpx[http2]>=0.28.1",
+    "cfscrape>=1.1.0",
+    "urllib3<2.0",
+    "minsearch>=0.0.7",
+]
+
+[project.urls]
+Repository = "https://github.com/MVCionOld/ai-dev-tools-zoomcamp-03-assignment"
+
+[project.scripts]
+"jina-reader" = "main:main"
+
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
